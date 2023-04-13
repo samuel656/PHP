@@ -1,0 +1,59 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<a href="reg.html">Registration Link</a>&nbsp;
+<a href="login.html">Login Page</a>&nbsp;
+<a href="view.html">View</a>&nbsp;
+<a href="viewAll.html">View All</a>&nbsp;
+<a href="update.html">Update</a>&nbsp;
+<a href="delete.html">Delete</a>&nbsp;
+<br><br>
+
+<h1><center>Student Registration Form</center> </h1>
+<hr><br>
+<h2><center>Registration Form</center></h2>
+
+<div class="grandParentContaniner">
+<div class="parentContainer">
+<form name="regform" action="regst.php"  method="post">
+Enter Reg No: <input type="text" name="regno" class="input-filed" id="regno"><br>
+
+Enter Name: <input type="text" name="name" class="input-filed" id="name"><br>
+
+Enter Gender: <input type="radio" name="gender" class="input-filed" id="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" name="gender" id="gender" class="input-filed" value="female">
+<label for="female">Female</label><br>
+
+Enter DOB: <input type="date" name="dob" class="input-filed" id="dob"><br>
+
+Enter Email Id: <input type="email" name="email" class="input-filed" id="email"><br>
+
+Enter Password: <input type="password" name="pwd" class="input-filed" id="pwd"><br>
+
+Enter Course: 
+<select name="course" id="course" class="input-filed">
+<option value="CSE">CSE</option>
+<option value="MECH">AI-DS</option>
+<option value="IT">IT</option>
+<option value="ECE">ECE</option>
+<option value="EEE">EEE</option>
+<option value="MECH">MECH</option>
+</select><br>
+
+Enter Mobile No: <input type="text" name="mobile" class="input-filed" id="mobile"><br>
+
+Enter Address: <input type="text" name="adress" class="input-filed" id="adress"><br>
+<center>
+<button type="submit" class="btn"> submit</button>
+
+<button type="reset" class="btn">Reset</button>
+</center>
+</form>
+</div>
+</div>
+</body>
+</html>
